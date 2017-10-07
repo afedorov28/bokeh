@@ -35,6 +35,10 @@ been deprecated. The ``sizing_mode`` enum should be used instead. Use
 ``sizing_mode='fixed'`` for ``responsive=False`` and
 ``sizing_mode='scale_width'`` for ``responsive=True`` instead.
 
+``Plot.toolbar_sticky`` isn't needed anymore as was deprecated. You can achieve
+similar results to ``toolbar_sticky=False`` by manually creating a layout with
+a plot and ``ToolbarBox``.
+
 Code Moves
 ~~~~~~~~~~
 
